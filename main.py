@@ -1,3 +1,4 @@
+import pygame
 import random
 
 # 受到启发 dong dong never die
