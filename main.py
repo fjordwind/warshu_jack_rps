@@ -1,10 +1,11 @@
 import random
 
+# 受到启发 dong dong never die
 print("杰克，印度骗子沃舒试图占领土地！通过游击战争前线对抗 Warshu Jack")
 print(" 夺回土地，拯救大陆! 欢迎来到变形、剪切、被子战争游戏")
-valid_choices = ['quartz', 'parchment', 'shears', 'junior', 'beer']
+valid_choices = ['quartz', 'parchment', 'shears', 'junior', 'beer', 'dog']
 while True:
-  user_choice = input("输入您的选择 (quartz,parchment,shears,初级,beer):").lower()
+  user_choice = input("输入您的选择 (quartz,parchment,shears,初级,beer,dog):").lower()
   if user_choice not in valid_choices:
     print("杰克不同意这个选择")
   else:
@@ -18,9 +19,10 @@ print("印度骗子选择了 Warshu Jack: ", computer_choice)
 if user_choice == computer_choice:
   print("印度骗子杰克，你已经从社会地位下降了!!: ", user_choice, computer_choice)
 elif ((user_choice == 'parchment' and computer_choice == 'quartz'
-      or computer_choice == 'junior')
+      or computer_choice == 'beer')
   or (user_choice == 'shears' and computer_choice == 'parchment'
-     or computer_choice == 'junior')
+     or computer_choice == 'junior'
+     or computer_choice == 'dog')
   or (user_choice == 'quartz' and computer_choice == 'shears'
      or computer_choice == 'dog')
   or (user_choice == 'junior' and computer_choice == 'dog'
@@ -38,3 +40,4 @@ else:
   print("你已经失去了对抗沃舒骗子杰克大师的所有优雅......: ", computer_choice, 
         "印度骗子杰克 won against user the: ", user_choice)
   print("再玩一次 Warshu Jack")
+
