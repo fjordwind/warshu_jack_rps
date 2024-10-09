@@ -1,2 +1,2 @@
 # probable-parchment
-Inspired by chinese shovelware
+Available for modifications/forks
