@@ -3,18 +3,20 @@ import pygame
 
 # 受到启发 dong dong never die
 # Jack, the Indian conman Washu tries to take over the land! Confrontation through Guerrilla War Frontline
-## Would you like to participate in ultra challenge mode?
-print("杰克，印度骗子沃舒试图占领土地！通过游击战争前线对抗 Warshu Jack\n 你想参加吗ultra challenge mode?")
-valid_choice = ['yes', 'no', 'Y', 'N']
-
-while True:
-                    #Enter your choice
-  user_choices = input("输入您的选择 yes or no")
-  #"Warshu Jack" disagrees.
-  if user_choices not in valid_choice:
-    print("杰克不同意这个选择");
-  elif user_choices == ['yes'] or ['Y']:
-    print("杰克不同意这个选择\n In ultra challenge mode, there are 7 options with an onslaught of Warshu Jacks.\n When you win, you move on to the next. The goal is a score of 20.")
+## Would you like to participate in ultra-challenge mode?
+print("杰克，印度骗子沃舒试图占领土地！通过游击战争前线对抗 Warshu Jack
+    ### \n 你想参加吗ultra challenge mode?")
+    ### valid_choice = ['yes', 'no', 'Y', 'N']
+    
+    ### while True:
+                        #Enter your choice
+      ### user_choices = input("输入您的选择 yes or no")
+      #"Warshu Jack" disagrees.
+      ### if user_choices not in valid_choice:
+        ### print("杰克不同意这个选择");
+      ### elif user_choices == ['yes'] or ['Y']:
+        # Welcome to Hell.
+        print("欢迎来到地狱\n In ultra challenge mode, there are 7 options with an onslaught of Warshu Jacks.\n When you win, you move on to the next. The goal is a score of 20.")
   elif user_choices == ['no'] or ['N']:
         print(" 夺回土地，拯救大陆! 欢迎来到变形、剪切、被子战争游戏")
       # Take back the land and save the continent! Welcome to the rock, paper, scissors war game!
