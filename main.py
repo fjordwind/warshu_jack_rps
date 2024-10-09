@@ -18,7 +18,7 @@ print("杰克，印度骗子沃舒试图占领土地！通过游击战争前线�
         # Welcome to Hell.
         # print("欢迎来到地狱\n In ultra challenge mode, there are 7 options with an onslaught of Warshu Jacks.\n When you win, you move on to the next. The goal is a score of 20.")
         #elif user_choices == ['no'] or ['N']:
-        print(" 夺回土地，拯救大陆! 欢迎来到变形、剪切、被子战争游戏")
+print(" 夺回土地，拯救大陆! 欢迎来到变形、剪切、被子战争游戏")
       # Take back the land and save the continent! Welcome to the rock, paper, scissors war game!
         valid_choices == ['quartz', 'parchment', 'shears']
         while True:
