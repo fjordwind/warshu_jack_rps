@@ -1,5 +1,5 @@
 import pygame
 import random
 
-# The fifth horseman of the apocalypse has arrivived, some might call him conquest, but his true name is WARSHUJACK. He has taken over Taiwan, and you need to be the hero. !!! Defeat Him !!!
+# The fifth horseman of the apocalypse has arrivived, some might call him pestilence, but his true name is WARSHUJACK. He has taken over Taiwan, and you need to be the hero. !!! Defeat Him !!!
 print("骗子皇帝第五任骑士WARSHUJACK终于入侵台湾了！用石英、羊皮纸和剪刀反击他。祝你好运。");
