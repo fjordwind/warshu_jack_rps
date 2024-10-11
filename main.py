@@ -4,7 +4,7 @@ import pygame
 # 受到启发 dong dong never die
 # Jack, the Indian conman Washu tries to take over the land! Confrontation through Guerrilla War Frontline
 ## Would you like to participate in ultra-challenge mode?
-print("杰克，印度骗子沃舒试图占领土地！通过游击战争前线对抗 Warshu Jack
+print("杰克，印度骗子沃舒试图占领土地！通过游击战争前线对抗 Warshu Jack")
     ### \n 你想参加吗ultra challenge mode?")
     ### valid_choice = ['yes', 'no', 'Y', 'N']
     
