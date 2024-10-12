@@ -5,5 +5,6 @@ from enum import Enum
 pygame.init()
 
 # The fifth horseman of the apocalypse has arrived, some might call him Pestilence, but his true name is WARSHUJACK. He has taken over Taiwan, and you need to be the hero. !!! Defeat Him !!!
-print("骗子皇帝第五任骑士WARSHUJACK终于入侵台湾了！用石英、羊皮纸和剪刀反击他。祝你好运。");
+# print("骗子皇帝第五任骑士WARSHUJACK终于入侵台湾了！用石英、羊皮纸和剪刀反击他。祝你好运。");
 
+def user_inpu():
